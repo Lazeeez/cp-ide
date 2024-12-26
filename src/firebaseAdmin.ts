@@ -26,7 +26,7 @@ if (getApps().length === 0) {
         privateKey: process.env.NEW_FIREBASE_PRIVATE_KEY,
         clientEmail: process.env.NEW_FIREBASE_CLIENT_EMAIL,
       }),
-      databaseURL: 'https://cp-ide-2-default-rtdb.firebaseio.com',
+      databaseURL: 'https://ideinnit-default-rtdb.asia-southeast1.firebasedatabase.app',
     });
   } else {
     initializeApp({
